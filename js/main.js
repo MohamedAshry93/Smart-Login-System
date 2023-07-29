@@ -149,7 +149,7 @@ function signIn() {
 }
 
 function displayWelcomeUser() {
-    userName.innerHTML = "Welcome" + usersName;
+    userName.innerHTML = "Welcome" + " " + usersName;
 }
 function logout() {
     localStorage.removeItem("usersSession");
